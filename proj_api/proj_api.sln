@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proj_api", "proj_api\proj_api.csproj", "{AC9E5EC2-48EC-40AD-9548-7FCE33E2B32A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proj_api test3", "proj_api test3\proj_api test3.csproj", "{3BE11680-9DA5-4DF8-86B1-0F66A1B1B30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9E5EC2-48EC-40AD-9548-7FCE33E2B32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9E5EC2-48EC-40AD-9548-7FCE33E2B32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9E5EC2-48EC-40AD-9548-7FCE33E2B32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9E5EC2-48EC-40AD-9548-7FCE33E2B32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE11680-9DA5-4DF8-86B1-0F66A1B1B30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE11680-9DA5-4DF8-86B1-0F66A1B1B30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE11680-9DA5-4DF8-86B1-0F66A1B1B30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE11680-9DA5-4DF8-86B1-0F66A1B1B30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

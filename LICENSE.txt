@@ -1,0 +1,47 @@
+?
+? The proj_api class (proj_api.cs) was download from
+? http://ftp.dfg.ca.gov/Public/BDB/Tools/proj4/
+? on 2/2/15 by Roger Lew and encapsulated into a Visual Studio
+? Solution targeting the Unity 3.5 Framework
+? 
+? The class was authored by Eric G. Miller is licensed under a BSD style 
+? license (see below) and is redistributed under those terms.
+? (Thanks Eric)
+
+The zip file proj_api.zip contains a wrapper DLL for the PROJ.4 library.
+See http://www.remotesensing.org/proj for information.
+
+The primary purpose of this wrapper is to make certain functions available
+for use in Visual Basic programs.  The DLL has been compiled against the
+proj.dll version 4.4.6 distributed from the remotesensing.org site.  Earlier
+or later versions may not work properly without recompilation.  Not all
+functions will work in a desirable fashion from VB.  The wrapper was written
+primarily to expose "pj_init_plus()", and "pj_transform".  Other functions
+may not work correctly.  It is pretty much impossible to usefully use 
+functions that return pointers to C strings or other objects in VB.  However,
+if you only need the pointer to pass around, a VB Long will suffice.
+
+An example coordinate calculator application is included as a Microsoft
+Access database (example.mdb).
+
+--- Mumbo Jumbo ---
+
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+--- End ---

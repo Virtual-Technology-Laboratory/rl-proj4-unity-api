@@ -1,0 +1,5 @@
+D:\ownCloud\documents\software\ftp.dfg.ca.gov\Public\BDB\Tools\proj4\rl_proj_api_build\proj_api\proj_api\bin\Debug\proj_api.dll
+D:\ownCloud\documents\software\ftp.dfg.ca.gov\Public\BDB\Tools\proj4\rl_proj_api_build\proj_api\proj_api\bin\Debug\proj_api.pdb
+D:\ownCloud\documents\software\ftp.dfg.ca.gov\Public\BDB\Tools\proj4\rl_proj_api_build\proj_api\proj_api\obj\Debug\proj_api.dll
+D:\ownCloud\documents\software\ftp.dfg.ca.gov\Public\BDB\Tools\proj4\rl_proj_api_build\proj_api\proj_api\obj\Debug\proj_api.pdb
+D:\ownCloud\documents\software\ftp.dfg.ca.gov\Public\BDB\Tools\proj4\rl_proj_api_build\proj_api\proj_api\obj\Debug\proj_api.csprojResolveAssemblyReference.cache
